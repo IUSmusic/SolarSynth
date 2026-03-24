@@ -213,41 +213,6 @@ The computer keyboard is mapped as a playable note surface, making it possible t
 - **Audio I/O:** mono or stereo input, mono or stereo output
 - **Graphics:** native JUCE UI with custom background rendering and OpenGL support enabled in the project
 
-## Building
-
-### Requirements
-
-- CMake 3.22 or newer
-- A C++17-compatible compiler
-- JUCE checked out at `external/JUCE`
-- Ninja or another supported CMake generator
-
-### Configure and build
-
-```bash
-cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug
-cmake --build build -j1
-```
-
-The project is configured to build:
-
-- `SolarSynth` standalone app
-- `SolarSynth` VST3 plug-in
-
-## Repository structure
-
-```text
-Source/                 Main JUCE processor, editor, parameters, and background components
-engine/synth/           Synth voice and sound generation
-engine/tracks/          Track engine and per-target state handling
-engine/sequencer/       Internal DMS-style sequencer engine
-engine/input/           External input analysis and blend path
-engine/ui_shared/       Reusable UI components
-assets/ui/              Bundled UI assets and logos
-apps/standalone/        Standalone app packaging area
-plugins/main-plugin/    Plug-in packaging area
-reference/              Reference materials and prototype sources
-```
 
 ## Current workflow in practice
 
