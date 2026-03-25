@@ -2,8 +2,8 @@
 
 ### Demo Version
 
-![0Preview](solarsynthpreview01.png)
-![0Preview](solarsynthsettingpreview.png)
+- ![0Preview](solarsynthpreview01.png)
+- ![0Preview](solarsynthsettingpreview.png)
 
 #### Standalone App
 - [Windows 64-bit](./SolarSynth%20for%20Window.exe)
