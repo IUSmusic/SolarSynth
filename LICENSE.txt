@@ -1,0 +1,69 @@
+I/US SolarSynth Demo Personal Use License 1.1
+
+Copyright (c) 2026 Pezhman Farhangi
+I/US Music
+
+Scope
+
+This license applies to the original I/US-owned portions of the SolarSynth demo package, including original source files, original UI and logo assets, packaged demo builds, and related documentation, except where a file, folder, dependency, or notice clearly states that different license terms apply.
+
+Permitted Use
+
+You may:
+
+- install and use this demo for your own personal, private, non-commercial evaluation and testing
+- keep a reasonable number of private backup copies
+- make private modifications for your own personal, non-commercial evaluation only, provided you do not redistribute those modifications
+
+Restrictions
+
+You may not, without prior written permission from I/US Music:
+
+- sell, rent, lease, sublicense, publish, host, redistribute, or otherwise make this software or any modified version available to any third party
+- use this software or any modified version for commercial purposes, client work, paid services, public installations, product integration, or revenue-generating activity
+- distribute source code, compiled builds, packaged versions, or modified copies
+- remove or alter copyright, authorship, ownership, attribution, trademark, or license notices
+- use the software in a way that suggests official endorsement, certification, or affiliation where none has been granted in writing
+
+Demo Version
+
+This is a demo version of the software. Features may be incomplete, experimental, changed, limited, or removed at any time. No maintenance, support, updates, compatibility guarantees, or continued availability are promised.
+
+Third-Party and Separately Licensed Components
+
+This software may include, reference, or depend on third-party or open-source components. Those components remain governed by their own applicable licenses and notices.
+
+Nothing in this license narrows rights already granted to you under any separate third-party or open-source license, and nothing in this license removes any obligations that apply to such components.
+
+If a file, folder, dependency, or notice states a different license, that separate license continues to apply to that material.
+
+For clarity:
+
+- builds of this software may include or depend on the JUCE framework, which remains subject to its own applicable license terms
+- any files or materials already published under MPL-2.0 or another separate open-source license remain under those terms for the material covered by those notices
+
+Ownership
+
+All rights not expressly granted under this license are reserved.
+
+This license does not transfer ownership of the software, documentation, designs, concepts, brand identity, logos, artwork, audio branding, or any related intellectual property.
+
+No Trademark or Brand Rights
+
+This license does not grant any right to use the names I/US, IUS, I/US Music, the official logo, the visual identity, artwork, images, audio branding, or any other protected brand assets, except as embedded in this demo build for normal permitted personal use.
+
+Any separate use of those brand assets requires prior written permission from I/US Music.
+
+No Warranty
+
+This software and all associated materials are provided "as is", without warranty of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, noninfringement, accuracy, availability, or uninterrupted operation.
+
+In no event shall the author, copyright holder, or rights holder be liable for any claim, damages, losses, or other liability, whether in contract, tort, or otherwise, arising from, out of, or in connection with the software or the use of or inability to use the software.
+
+Acceptance
+
+By clicking "OK I Agree", installing, copying, accessing, or continuing to use this software, you acknowledge that you have read and accepted this license.
+
+Contact
+
+For licensing requests, commercial rights, redistribution requests, or permission to use protected brand assets, prior written permission must be obtained from I/US Music.
