@@ -8,8 +8,8 @@ VST3
 - [Windows 64-bit](./SolarSynth%20VST3%20for%20Windows.vst3.zip)
 - [Linux 64-bit](./SolarSynth%20VST3%20for%20Linux.vst3.zip)
 
-![0Preview](solarsynthpreview01.png)
-![0Preview](solarsynthsettingpreview.png)
+![Preview](solarsynthpreview01.png)
+![Preview](solarsynthsettingpreview.png)
 
 # SolarSynth
 
