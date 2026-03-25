@@ -15,7 +15,7 @@ VST3
 
 SolarSynth is a JUCE-based instrument that combines a playable three-layer synth engine, internal rhythmic trigger lanes, live performance controls, and audio capture into one desktop application and VST3 plug-in.
 
-- **SolarSynth** is built around three complementary signal engines, each derived from a different physical aspect of solar and plasma behaviour. Rather than imitating traditional subtractive or keyboard synthesis, the instrument models three families of motion: solar oscillation, radio-burst activity, and plasma turbulence. These become the Helio, Radio, and Plasma engines.
+**SolarSynth** is built around three complementary signal engines, each derived from a different physical aspect of solar and plasma behaviour. Rather than imitating traditional subtractive or keyboard synthesis, the instrument models three families of motion: solar oscillation, radio-burst activity, and plasma turbulence. These become the Helio, Radio, and Plasma engines.
 - **Helio**
 Helio is the resonant engine.
 It is based on helioseismology, the study of pressure waves and oscillations moving through the Sun. NASA describes the Sun as a body filled with waves that travel, bounce, and reveal internal motion, and notes that solar oscillations include well-known five-minute surface motions as well as larger-scale wave behaviour. In the instrument, that science is translated into a harmonic field built from slow-moving resonances, modal clusters, and continuously shifting energy rather than a fixed note-on, note-off voice. The result is the body of the sound: tonal, structural, and spatially stable.
