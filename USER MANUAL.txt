@@ -1,0 +1,258 @@
+SolarSynth
+User Guide and License
+Standalone desktop app and VST3 instrument
+
+This guide explains the main workflow of SolarSynth, including sound design, live performance, recording, lane playback, presets, input methods, and the included personal-use demo license.
+
+I/US Music
+
+Contents
+    • 1. Introduction
+    • 2. Quick start
+    • 3. Interface overview
+    • 4. Playing the instrument
+    • 5. Sound design and performance controls
+    • 6. Recording, lane playback, and export
+    • 7. Presets and target-based editing
+    • 8. Audio and MIDI setup
+    • 9. Tips and troubleshooting
+    • 10. Included license
+1. Introduction
+SolarSynth is a performance-focused instrument that combines a three-layer synth engine, an internal rhythm workflow, live capture controls, and reusable playback lanes inside one interface. It is designed for fast musical interaction rather than menu-heavy editing.
+The app is organized around two main pages. Live is the performance page, where you play, monitor, capture, and reuse material. Settings is the editing page, where you shape the synth, adjust movement and effects, manage routing, and work with presets.
+At the center of SolarSynth is a blended sound engine built from Helio, Radio, and Plasma. The instrument can be played from external MIDI, the on-screen keyboard, or the computer keyboard.
+2. Quick start
+    1. Launch SolarSynth and accept the license on the welcome screen.
+    2. Open Audio / MIDI in the standalone app if you need to choose your audio device or MIDI controller.
+    3. Go to Settings and adjust Helio, Radio, Plasma, Morph, and the grouped controls until you have a sound you like.
+    4. Go to Live, arm the Master track, and play the instrument from MIDI, the on-screen keyboard, or the computer keyboard.
+    5. Use Capture to record the master output. Then arm one of the three lanes if you want to reuse that material as a loopable playback layer.
+    6. Save your sound as a preset or export the recorded master audio as a WAV file.
+3. Interface overview
+Welcome screen
+On launch, SolarSynth opens with a welcome overlay. From there you can view the included license or accept it and continue into the main interface.
+The welcome screen is intended as the first-run entry point before you move into the Live and Settings workflow.
+Top controls
+The top area of the app provides page switching and session controls. The Live and Settings buttons switch between the two main pages. In the standalone build, Audio / MIDI opens the device setup dialog. The Settings page also includes the target selector and preset controls.
+The target selector lets you choose whether you are editing the Master synth state or one of the three lane targets. The preset field and Save, Load, and Reset buttons sit alongside this selector.
+Live page
+The Live page is the performance surface. It combines system gauges, a large master panel, three playback lanes, transport controls, recording controls, an on-screen keyboard, mirrored performance toggles, and tempo feedback.
+Live page area
+What it does
+System gauges
+Shows engine and signal activity for key areas such as Helio, Radio, Plasma, Excite, Input, Low, and High.
+Master panel
+Represents the main synth path. When the master is armed, the synth is live and ready to play.
+Tracks 1–3
+Playback and capture lanes that can store recorded material, replay it, pause it, loop it, or be cleared.
+Transport row
+Includes Arm, Play, Pause, Loop, Stop, Capture, Stop Rec, and Export WAV.
+Keyboard area
+Lets you play notes from the built-in on-screen keyboard and use quick live toggles such as Sustain, Arp, Tap, and Room In.
+
+Settings page
+The Settings page is organized into functional groups so you can edit the instrument quickly without losing the performance context.
+Settings group
+Purpose
+Performance surface
+Morph Pad plus live switches such as Morph Lock, Sustain, Field Hold, Arp On, Latch, and Room Input.
+Core tone
+Helio, Radio, Plasma, Gain, Density, Drift, Excitation, and Brightness.
+Arp and bass
+Arp Rate, Arp Mode, Octaves, Arp Gate, Bass Amount, Bass Focus, Sub Enhance, and Low Width.
+Filter and EQ
+Filter Cutoff, Resonance, Mode, Drive, EQ Low, EQ Mid, and EQ High.
+Delay and reverb
+Delay Time, Delay Feedback, Delay Mix, Delay Tone, Reverb Size, Damping, and Reverb Mix.
+Stereo and routing
+Stereo Width, Motion, Depth, plus Lane 1 to Lane 3 Mode and Send controls.
+External input
+Room input and controls for Input Mix, Input Gain, Input Gate, Input to Helio, Input to Radio, Input to Plasma, and File Blend.
+
+4. Playing the instrument
+SolarSynth supports three input methods. You can use whichever option fits the way you prefer to sketch, rehearse, or perform.
+External MIDI
+Connect a MIDI controller and select it in your host or in the standalone Audio / MIDI setup. When the Master track is armed, incoming note data will play the synth engine directly.
+On-screen keyboard
+The Live page includes a built-in keyboard at the bottom of the interface. This is useful for quick testing, touchpad use, or checking a patch without external hardware.
+Computer keyboard
+The computer keyboard can also be used as a playable note surface. This makes it possible to perform or sketch even when no MIDI controller is connected.
+Computer keyboard note input is disabled while the welcome overlay is open and while a text field such as the preset name box has focus.
+Computer keyboard map
+Row
+Keys
+Pitch range
+Lower row
+Z S X D C V G B H N J M
+C3 to B3
+Upper row
+Q 2 W 3 E R 5 T 6 Y 7 U I 9 O 0 P
+C4 to E5
+
+5. Sound design and performance controls
+The three synth layers
+Helio is the main tonal body of the instrument. Radio adds unstable and bright upper energy. Plasma introduces noisier animated texture. Blending these three layers gives SolarSynth its core voice.
+Morph Pad and performance state
+The Morph Pad is the central real-time performance surface on the Settings page. Moving within the pad changes the tonal position of the synth by updating Morph X and Morph Y. Morph Lock freezes the pad position so accidental movement does not change the sound.
+Density, Drift, Excitation, Brightness, and Gain extend this performance state. Use them to control how active, unstable, energetic, bright, and loud the sound feels.
+Performance switches
+    • Sustain holds notes in a more conventional sustained playing state.
+    • Field Hold keeps the current field behaviour held in place for a more stable texture.
+    • Arp On enables the internal arpeggiator.
+    • Latch keeps the arpeggiator running after notes are entered.
+    • Room Input enables the external input path.
+Arpeggiator and bass
+The arpeggiator section includes Rate, Mode, Octaves, and Gate. The Live page mirrors the most important arp controls, including tap tempo, so you can change pulse timing during performance without returning to Settings.
+The bass section gives you extra low-end control. Bass Amount increases the low-frequency contribution, Bass Focus shapes its emphasis, Sub Enhance extends the low foundation, and Low Width manages the stereo spread of the low region.
+Filter, EQ, and spatial effects
+Filter Cutoff, Resonance, Mode, and Drive define the basic contour and edge of the sound. EQ Low, EQ Mid, and EQ High let you rebalance the spectrum.
+Delay and Reverb create time and space, while Stereo Width, Motion, and Depth add image size and movement.
+Routing and lane links
+SolarSynth includes lane mode and send controls for Lane 1, Lane 2, and Lane 3. These settings determine how the internal rhythm and synth-routing behaviour interacts with each lane target.
+A useful workflow is to design a main sound on the Master target, then switch the target selector to Lane 1, Lane 2, or Lane 3 and create variations for those playback contexts.
+External input
+When Room Input is enabled, SolarSynth can use incoming audio as part of the signal flow. Input Mix, Input Gain, and Input Gate determine how the input is heard and how strongly it reacts.
+Input to Helio, Input to Radio, and Input to Plasma decide how the incoming signal feeds the three synth layers. File Blend provides an additional blend amount inside the same input-related workflow.
+6. Recording, lane playback, and export
+Master transport
+The Master track is the synth lane. When it is armed, SolarSynth plays live from your chosen note input source. The transport row lets you control playback and capture from one place.
+Control
+Function
+Arm
+Connects the Master track to the live synth so you can play it directly.
+Play
+Sets the app to active playback.
+Pause
+Pauses playback.
+Loop
+Loops the master playback when applicable.
+Stop
+Stops activity and acts as a panic command.
+Capture
+Starts recording the master output.
+Stop Rec
+Stops the current master recording.
+Export WAV
+Saves the captured master recording as a WAV file.
+
+Playback lanes
+Tracks 1 to 3 are reusable playback lanes. They can capture the master output, store clips, and play them back underneath new live synth parts.
+    • Arm prepares a lane to capture material.
+    • Play restarts the lane clip from the beginning and enables playback.
+    • Pause disables lane playback without deleting the clip.
+    • Loop toggles continuous playback for that lane.
+    • Clear removes the current clip from the lane.
+Layered performance workflow
+    7. Arm the Master track and play the synth live.
+    8. Use Capture to record the main output.
+    9. Arm one of the lanes to hold a reusable layer.
+    10. Play that lane back and turn on Loop if you want it to repeat.
+    11. Return to live playing on the Master track and add a new layer over the lane playback.
+    12. Repeat with Lane 2 and Lane 3 to build a stacked arrangement.
+The Live page summary is built around one simple idea: Master is the synthesizer, while Tracks 1 to 3 record and replay the master output.
+7. Presets and target-based editing
+Preset management lives on the Settings page. Enter a preset name, then use Save to write a .solarpreset file. Load opens an existing preset file, and Reset restores the currently selected target.
+The target selector changes what you are editing. You can edit the Master, Lane 1, Lane 2, or Lane 3 target independently. This makes it possible to prepare variations of the sound for different playback roles.
+    13. Choose the target you want to edit.
+    14. Adjust the synth controls for that target.
+    15. Type a preset name.
+    16. Use Save to store the preset.
+    17. Use Load later to restore a preset file.
+8. Audio and MIDI setup
+In the standalone app, the Audio / MIDI button opens the device settings dialog. Use this area to choose your audio driver, input and output device, buffer settings, and MIDI sources.
+In the VST3 plug-in build, audio and MIDI routing are handled by the host application. Make sure the plug-in track is armed and routed correctly inside your DAW if you do not hear sound or if external input is not reaching the instrument.
+Room Input and any external-input-based behaviour depend on audio input being available and routed into the instrument.
+9. Tips and troubleshooting
+No sound
+    • Confirm that the Master track is armed.
+    • Check that playback is not paused.
+    • Make sure your output device or DAW routing is correct.
+    • Verify that the synth gain and layer levels are not turned down too far.
+Computer keyboard is not playing notes
+    • Close the welcome overlay first.
+    • Click outside the preset name field so text entry focus is released.
+    • Make sure the app window has focus.
+External input is not reacting
+    • Enable Room Input.
+    • Check that the audio input is configured in the standalone app or correctly routed in the host.
+    • Raise Input Gain or Input Mix if the incoming level is too low.
+    • Lower the Input Gate setting if quieter signals are not passing through.
+A good first patch workflow
+    • Start with Helio as the base layer.
+    • Add a smaller amount of Radio for brightness and edge.
+    • Bring in Plasma for texture.
+    • Use the Morph Pad to find a balanced tonal position.
+    • Set Arp On only after the base timbre feels right.
+    • Add delay, reverb, and stereo movement last.
+
+10. Included license
+The following license text is included for convenience in this guide.
+I/US SolarSynth Demo Personal Use License 1.1
+
+Copyright (c) 2026 Pezhman Farhangi
+I/US Music
+
+Scope
+
+This license applies to the original I/US-owned portions of the SolarSynth demo package, including original source files, original UI and logo assets, packaged demo builds, and related documentation, except where a file, folder, dependency, or notice clearly states that different license terms apply.
+
+Permitted Use
+
+You may:
+
+    • install and use this demo for your own personal, private, non-commercial evaluation and testing
+    • keep a reasonable number of private backup copies
+    • make private modifications for your own personal, non-commercial evaluation only, provided you do not redistribute those modifications
+
+Restrictions
+
+You may not, without prior written permission from I/US Music:
+
+    • sell, rent, lease, sublicense, publish, host, redistribute, or otherwise make this software or any modified version available to any third party
+    • use this software or any modified version for commercial purposes, client work, paid services, public installations, product integration, or revenue-generating activity
+    • distribute source code, compiled builds, packaged versions, or modified copies
+    • remove or alter copyright, authorship, ownership, attribution, trademark, or license notices
+    • use the software in a way that suggests official endorsement, certification, or affiliation where none has been granted in writing
+
+Demo Version
+
+This is a demo version of the software. Features may be incomplete, experimental, changed, limited, or removed at any time. No maintenance, support, updates, compatibility guarantees, or continued availability are promised.
+
+Third-Party and Separately Licensed Components
+
+This software may include, reference, or depend on third-party or open-source components. Those components remain governed by their own applicable licenses and notices.
+
+Nothing in this license narrows rights already granted to you under any separate third-party or open-source license, and nothing in this license removes any obligations that apply to such components.
+
+If a file, folder, dependency, or notice states a different license, that separate license continues to apply to that material.
+
+For clarity:
+
+    • builds of this software may include or depend on the JUCE framework, which remains subject to its own applicable license terms
+    • any files or materials already published under MPL-2.0 or another separate open-source license remain under those terms for the material covered by those notices
+
+Ownership
+
+All rights not expressly granted under this license are reserved.
+
+This license does not transfer ownership of the software, documentation, designs, concepts, brand identity, logos, artwork, audio branding, or any related intellectual property.
+
+No Trademark or Brand Rights
+
+This license does not grant any right to use the names I/US, IUS, I/US Music, the official logo, the visual identity, artwork, images, audio branding, or any other protected brand assets, except as embedded in this demo build for normal permitted personal use.
+
+Any separate use of those brand assets requires prior written permission from I/US Music.
+
+No Warranty
+
+This software and all associated materials are provided "as is", without warranty of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, noninfringement, accuracy, availability, or uninterrupted operation.
+
+In no event shall the author, copyright holder, or rights holder be liable for any claim, damages, losses, or other liability, whether in contract, tort, or otherwise, arising from, out of, or in connection with the software or the use of or inability to use the software.
+
+Acceptance
+
+By clicking "OK I Agree", installing, copying, accessing, or continuing to use this software, you acknowledge that you have read and accepted this license.
+
+Contact
+
+For licensing requests, commercial rights, redistribution requests, or permission to use protected brand assets, prior written permission must be obtained from I/US Music.
