@@ -1,4 +1,5 @@
-## v0.1a-Demo Version
+## v0.1a
+Demo Version
 
 - ![0Preview](solarsynthpreview01.png)
 - ![0Preview](solarsynthsettingpreview.png)
