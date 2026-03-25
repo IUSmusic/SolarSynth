@@ -1,5 +1,4 @@
-## v0.1a
-Demo Version
+## Demo Version v0.1a
 #### Standalone App
 - [Windows 64-bit](./SolarSynth%20for%20Window.exe)
 - [Linux 64-bit AppImage](./SolarSynth%20for%20Linux.AppImage)
