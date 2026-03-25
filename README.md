@@ -238,6 +238,6 @@ A typical session looks like this:
 
 ## License
 
-This repository is provided under the **I/US SolarSynth Demo Personal Use License 1.1**.
+This repository is provided under the **I/US SolarSynth Demo Personal Use License 1.2**.
 
-It is a personal-use demo license rather than an open-source license. See `LICENSE.txt` for the full license text and usage terms.
+See `LICENSE.txt` for the full license text and usage terms.
