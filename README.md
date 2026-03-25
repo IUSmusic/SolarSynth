@@ -240,4 +240,4 @@ A typical session looks like this:
 
 This repository is provided under the **I/US SolarSynth Demo Personal Use License 1.2**.
 
-See `LICENSE.txt` for the full license text and usage terms.
+See `LICENSE` for the full license text and usage terms.
