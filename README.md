@@ -32,11 +32,12 @@ A concise professional sentence: Radio models solar burst behaviour as a dynamic
 It is based on the behaviour of charged particles and plasma waves in heliophysical environments. NASA describes plasma-wave data as producing audible whistles, crunches, whooshes, and chorus-like structures when audified, reflecting the interaction of particles, magnetic fields, and wave motion. In the instrument, that science becomes a textural engine built around instability, turbulence, modulation density, and charged motion. Plasma is what gives the sound its electric surface, roughness, and sense of living disturbance.
 A concise professional sentence: Plasma models charged-wave turbulence as an unstable textural field, adding friction, motion, and electrical complexity to the instrument.
 
-#### The three engines are parallel layers of one instrument
-#### Helio provides structure and resonance
-#### Radio provides signal events and transient motion
-#### Plasma provides turbulence and texture
-#### Together they form a composite sonic system that behaves more like a field than a conventional synth voice. MIDI and performance controls do not simply trigger a fixed patch. They excite, bias, and shape the relationship between these three engines in real time.
+**The three engines are parallel layers of one instrument**
+- Helio provides structure and resonance
+- Radio provides signal events and transient motion
+- Plasma provides turbulence and texture
+
+**Together they form a composite sonic system that behaves more like a field than a conventional synth voice. MIDI and performance controls do not simply trigger a fixed patch. They excite, bias, and shape the relationship between these three engines in real time.**
 
 ## What the app does
 
