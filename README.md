@@ -35,6 +35,7 @@
 </div>
 
 ---
+</div>
 
 **Official Website Page: https://iusmusic.com/solarsynth.html**
 
@@ -269,3 +270,6 @@ A typical session looks like this:
 This repository is provided under the **I/US SolarSynth Demo Personal Use License 1.2**.
 
 See `LICENSE` for the full license text and usage terms.
+
+
+</div>
