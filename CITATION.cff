@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "SolarSynth"
+type: software
+authors:
+  - given-names: Pezhman
+    family-names: Farhangi
+    affiliation: "I/US Music"
+    orcid: "https://orcid.org/0009-0001-0463-4583"
+repository-code: "https://github.com/IUSmusic/SolarSynth"
+url: "https://iusmusic.com/solarsynth.html"
+abstract: >
+  SolarSynth is an experimental software synthesizer and JUCE-based
+  instrument that combines a playable three-layer synth engine, internal
+  rhythmic trigger lanes, live performance controls, and audio capture
+  into one desktop application and VST3 plug-in for Windows and Linux.
+keywords:
+  - synthesizer
+  - JUCE
+  - VST3
+  - audio plugin
+  - C++
+  - DSP
+  - virtual instrument
+  - solar physics

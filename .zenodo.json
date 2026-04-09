@@ -1,0 +1,37 @@
+{
+  "title": "SolarSynth",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Farhangi, Pezhman",
+      "orcid": "0009-0001-0463-4583",
+      "affiliation": "I/US Music",
+      "type": "ProjectLeader"
+    }
+  ],
+  "description": "SolarSynth is an experimental software synthesizer and JUCE-based instrument that combines a playable three-layer synth engine, internal rhythmic trigger lanes, live performance controls, and audio capture into one desktop application and VST3 plug-in for Windows and Linux.",
+  "keywords": [
+    "synthesizer",
+    "JUCE",
+    "VST3",
+    "audio plugin",
+    "C++",
+    "DSP",
+    "virtual instrument",
+    "solar physics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/IUSmusic/SolarSynth",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://iusmusic.com/solarsynth.html",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}
