@@ -12,6 +12,7 @@ https://iusmusic.com/solarsynth.html
 **An experimental software synthesizer modeled on solar physics**
 *Three-layer engine - Live performance - MIDI & keyboard playable - Standalone + VST3*
 
+[![DOI](https://zenodo.org/badge/1189935014.svg)](https://doi.org/10.5281/zenodo.19485966)
 ![License](https://img.shields.io/badge/License-Personal%20Use%201.2-blueviolet?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-informational?style=flat-square)
 ![Format](https://img.shields.io/badge/Format-Standalone%20%7C%20VST3-orange?style=flat-square)
