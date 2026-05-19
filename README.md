@@ -28,8 +28,8 @@ https://iusmusic.com/solarsynth.html
 
 | Platform | Standalone | VST3 Plugin |
 |----------|-----------|-------------|
-| **Windows 64-bit** | [SolarSynth for Windows.exe](https://github.com/IUSmusic/SolarSynth/blob/main/SolarSynth%20for%20Window.exe) | [VST3 for Windows](https://github.com/IUSmusic/SolarSynth/blob/main/SolarSynth%20VST3%20for%20Windows.vst3.zip) |
-| **Linux 64-bit** | [SolarSynth for Linux.AppImage](https://github.com/IUSmusic/SolarSynth/blob/main/SolarSynth%20for%20Linux.AppImage) | [VST3 for Linux](https://github.com/IUSmusic/SolarSynth/blob/main/SolarSynth%20VST3%20for%20Linux.vst3.zip) |
+| **Windows 64-bit** |
+| **Linux 64-bit** |
 
 ---
 
